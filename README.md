@@ -14,7 +14,7 @@ iOS 标准化是促进 App 开发团队高效、高质量进行开发工作的�
 
 # 二、深入学习标准化
 
-上面对标准化做了简单的介绍，在下面会给出标准化框架的各个组成部分以及各部分的简介，本文档不包含标准化框架各组成部分的详细介绍以及学习指南，对于更详细学习指南请参考本仓库的 [wiki-标准化学习大纲](https://g.hz.netease.com/mobile-ios/Standardization/wikis/home)，[wiki-标准化学习大纲](https://g.hz.netease.com/mobile-ios/Standardization/wikis/home) 中对标准化的各个部分进行了细致的划分，并提供了丰富的学习文档供开发者学习。
+上面对标准化做了简单的介绍，在下面会给出标准化框架的各个组成部分以及各部分的简介，本文档不包含标准化框架各组成部分的详细介绍以及学习指南，对于更详细学习指南请参考本仓库的 [wiki-标准化学习大纲](https://github.com/NEYouFan/standardization-iOS/wiki)，[wiki-标准化学习大纲](https://github.com/NEYouFan/standardization-iOS/wiki) 中对标准化的各个部分进行了细致的划分，并提供了丰富的学习文档供开发者学习。
 		
 
 # 三、组成部分
