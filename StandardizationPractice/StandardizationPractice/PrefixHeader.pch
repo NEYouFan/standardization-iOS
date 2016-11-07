@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  StandardizationPractice
+//
+//  Created by Baitianyu on 18/10/2016.
+//  Copyright © 2016 Netease. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SPMacros.h"
+#import "SPThemeColors.h"
+#import "SPThemeSizes.h"
+
+#endif /* PrefixHeader_pch */

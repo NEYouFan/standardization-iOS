@@ -1,0 +1,24 @@
+{
+  "name": "HTR3",
+  "version": "0.0.1",
+  "summary": "高性能URLMatcher.",
+  "description": "高性能 URLMatcher .",
+  "homepage": "https://git.hz.netease.com/mobile/HTR3",
+  "license": "MIT",
+  "authors": {
+    "hzzhangping": "hzhzzhangping@corp.netease.com"
+  },
+  "source": {
+    "git": "https://git.hz.netease.com/git/mobile/HTR3.git"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": [
+    "r3/project-mac/R3/R3/Sources/*.{h,m}",
+    "r3/project-mac/R3/R3/Sources/include/*.h",
+    "r3/project-mac/R3/R3/Sources/zmalloc.{c,h}"
+  ],
+  "requires_arc": false,
+  "public_header_files": "r3/project-mac/R3/R3/Sources/include/*.h"
+}

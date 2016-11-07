@@ -1,0 +1,267 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.6.2):
+    - AFNetworking/NSURLConnection (= 2.6.2)
+    - AFNetworking/NSURLSession (= 2.6.2)
+    - AFNetworking/Reachability (= 2.6.2)
+    - AFNetworking/Security (= 2.6.2)
+    - AFNetworking/Serialization (= 2.6.2)
+    - AFNetworking/UIKit (= 2.6.2)
+  - AFNetworking/NSURLConnection (2.6.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.2)
+  - AFNetworking/Security (2.6.2)
+  - AFNetworking/Serialization (2.6.2)
+  - AFNetworking/UIKit (2.6.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HTAssetsPicker (0.0.1)
+  - HTBadgeTextView (0.0.1)
+  - HTCommonUtility (0.0.1)
+  - HTImageView (0.0.1):
+    - SDWebImage (~> 3.7.3)
+  - HTNetworking (0.2.0):
+    - HTNetworking/HT (= 0.2.0)
+    - HTNetworking/HTRestKit (= 0.2.0)
+  - HTNetworking/HT (0.2.0):
+    - HTNetworking/HT/Cache (= 0.2.0)
+    - HTNetworking/HT/Core (= 0.2.0)
+    - HTNetworking/HT/Freeze (= 0.2.0)
+    - HTNetworking/HT/PublicHeaders (= 0.2.0)
+    - HTNetworking/HT/RACSupport (= 0.2.0)
+    - HTNetworking/HT/Support (= 0.2.0)
+    - HTNetworking/HTRestKit
+  - HTNetworking/HT/Cache (0.2.0):
+    - FMDB
+    - HTCommonUtility (~> 0.0.1)
+    - HTNetworking/HT/Support
+    - HTNetworking/HTRestKit
+  - HTNetworking/HT/Core (0.2.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - HTNetworking/HT/Cache
+    - HTNetworking/HT/Freeze
+    - HTNetworking/HT/RACSupport
+    - HTNetworking/HT/Support
+    - HTNetworking/HTRestKit
+  - HTNetworking/HT/Freeze (0.2.0):
+    - HTNetworking/HT/Cache
+    - HTNetworking/HTRestKit
+  - HTNetworking/HT/PublicHeaders (0.2.0):
+    - HTNetworking/HT/Core
+    - HTNetworking/HTRestKit
+  - HTNetworking/HT/RACSupport (0.2.0):
+    - HTCommonUtility (~> 0.0.1)
+    - HTNetworking/HT/Support
+    - HTNetworking/HTRestKit
+    - ReactiveCocoa (= 2.1.8)
+  - HTNetworking/HT/Support (0.2.0):
+    - HTCommonUtility (~> 0.0.1)
+    - HTNetworking/HTRestKit
+  - HTNetworking/HTRestKit (0.2.0):
+    - HTNetworking/HTRestKit/CocoaLumberjack (= 0.2.0)
+    - HTNetworking/HTRestKit/Core (= 0.2.0)
+    - HTNetworking/HTRestKit/CoreData (= 0.2.0)
+    - HTNetworking/HTRestKit/Network (= 0.2.0)
+    - HTNetworking/HTRestKit/ObjectMapping (= 0.2.0)
+    - HTNetworking/HTRestKit/Search (= 0.2.0)
+    - HTNetworking/HTRestKit/Support (= 0.2.0)
+    - HTNetworking/HTRestKit/Testing (= 0.2.0)
+  - HTNetworking/HTRestKit/CocoaLumberjack (0.2.0):
+    - CocoaLumberjack
+    - HTNetworking/HTRestKit/Support
+  - HTNetworking/HTRestKit/Core (0.2.0):
+    - HTNetworking/HTRestKit/CoreData
+    - HTNetworking/HTRestKit/Network
+    - HTNetworking/HTRestKit/ObjectMapping
+  - HTNetworking/HTRestKit/CoreData (0.2.0):
+    - HTNetworking/HTRestKit/ObjectMapping
+  - HTNetworking/HTRestKit/Network (0.2.0):
+    - AFNetworking (= 2.6.2)
+    - HTNetworking/HTRestKit/ObjectMapping
+    - HTNetworking/HTRestKit/Support
+    - SOCKit
+  - HTNetworking/HTRestKit/ObjectMapping (0.2.0):
+    - HTNetworking/HTRestKit/Support
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RKValueTransformers (~> 1.1.0)
+  - HTNetworking/HTRestKit/Search (0.2.0):
+    - HTNetworking/HTRestKit/CoreData
+  - HTNetworking/HTRestKit/Support (0.2.0):
+    - TransitionKit (~> 2.1.0)
+  - HTNetworking/HTRestKit/Testing (0.2.0):
+    - HTNetworking/HTRestKit/Network
+  - HTPageControllerView (0.0.1)
+  - HTR3 (0.0.1)
+  - HTRefreshView (0.0.1):
+    - ReactiveCocoa (~> 2.1.8)
+  - HTSegmentView (0.0.1)
+  - HTToast (0.0.1)
+  - IQKeyboardManager (3.3.7)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - Masonry (1.0.1)
+  - MBProgressHUD (1.0.0)
+  - MGSwipeTableCell (1.5.1)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core (= 2.1.8)
+    - ReactiveCocoa/no-arc (= 2.1.8)
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
+  - RKValueTransformers (1.1.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SOCKit (1.1)
+  - TransitionKit (2.1.1)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - UniversalRouter (0.0.1):
+    - HTR3 (~> 0.0.1)
+    - UniversalRouter/Controller (= 0.0.1)
+  - UniversalRouter/Controller (0.0.1):
+    - HTR3 (~> 0.0.1)
+
+DEPENDENCIES:
+  - BlocksKit (~> 2.2.5)
+  - CocoaLumberjack (~> 2.3.0)
+  - HTAssetsPicker (from `https://g.hz.netease.com/HTIOSUI/HTAssetsPicker.git`)
+  - HTBadgeTextView (from `https://g.hz.netease.com/HTIOSUI/HTBadgeTextView.git`)
+  - HTCommonUtility (from `https://g.hz.netease.com/HeartTouchOpen/HTCommonUtils.git`,
+    branch `poct`)
+  - HTImageView (from `https://g.hz.netease.com/HTIOSUI/HTImageView.git`)
+  - HTNetworking (from `https://g.hz.netease.com/HeartTouchOpen/HTNetworking.git`)
+  - HTPageControllerView (from `https://g.hz.netease.com/HTIOSUI/HTPageControllerView.git`)
+  - HTR3 (from `https://g.hz.netease.com/HeartTouchOpen/HTR3.git`)
+  - HTRefreshView (from `https://g.hz.netease.com/HTIOSUI/HTRefreshView.git`)
+  - HTSegmentView (from `https://g.hz.netease.com/HTIOSUI/HTSegmentView.git`)
+  - HTToast (from `https://g.hz.netease.com/HTIOSUI/HTToast.git`)
+  - IQKeyboardManager (~> 3.3.7)
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - MGSwipeTableCell (= 1.5.1)
+  - UITableView+FDTemplateLayoutCell (~> 1.4)
+  - UniversalRouter (from `https://g.hz.netease.com/HTIOSUI/UniversalRouter.git`)
+
+EXTERNAL SOURCES:
+  HTAssetsPicker:
+    :git: https://g.hz.netease.com/HTIOSUI/HTAssetsPicker.git
+  HTBadgeTextView:
+    :git: https://g.hz.netease.com/HTIOSUI/HTBadgeTextView.git
+  HTCommonUtility:
+    :branch: poct
+    :git: https://g.hz.netease.com/HeartTouchOpen/HTCommonUtils.git
+  HTImageView:
+    :git: https://g.hz.netease.com/HTIOSUI/HTImageView.git
+  HTNetworking:
+    :git: https://g.hz.netease.com/HeartTouchOpen/HTNetworking.git
+  HTPageControllerView:
+    :git: https://g.hz.netease.com/HTIOSUI/HTPageControllerView.git
+  HTR3:
+    :git: https://g.hz.netease.com/HeartTouchOpen/HTR3.git
+  HTRefreshView:
+    :git: https://g.hz.netease.com/HTIOSUI/HTRefreshView.git
+  HTSegmentView:
+    :git: https://g.hz.netease.com/HTIOSUI/HTSegmentView.git
+  HTToast:
+    :git: https://g.hz.netease.com/HTIOSUI/HTToast.git
+  UniversalRouter:
+    :git: https://g.hz.netease.com/HTIOSUI/UniversalRouter.git
+
+CHECKOUT OPTIONS:
+  HTAssetsPicker:
+    :commit: 99d9a231b1e89ae89c61c5999bf31dee10162ded
+    :git: https://g.hz.netease.com/HTIOSUI/HTAssetsPicker.git
+  HTBadgeTextView:
+    :commit: 6408031998c9838c4c22b5e2b735107e28ea90fe
+    :git: https://g.hz.netease.com/HTIOSUI/HTBadgeTextView.git
+  HTCommonUtility:
+    :commit: 0ef37866cfa647b5968b4a0936590aab7583999f
+    :git: https://g.hz.netease.com/HeartTouchOpen/HTCommonUtils.git
+  HTImageView:
+    :commit: f717de959f90ad3dd35938e57689f7ee1d225171
+    :git: https://g.hz.netease.com/HTIOSUI/HTImageView.git
+  HTNetworking:
+    :commit: 8a881527e56dc75446f536ea0fb347968e676691
+    :git: https://g.hz.netease.com/HeartTouchOpen/HTNetworking.git
+  HTPageControllerView:
+    :commit: bf91303261ada9a3b4b90d9fab6e628562ac2500
+    :git: https://g.hz.netease.com/HTIOSUI/HTPageControllerView.git
+  HTR3:
+    :commit: 9a58dca071097f48c794f7733d31b4223d77eebe
+    :git: https://g.hz.netease.com/HeartTouchOpen/HTR3.git
+  HTRefreshView:
+    :commit: 81625a358ed420037c4dd1650208b23ffee71d7a
+    :git: https://g.hz.netease.com/HTIOSUI/HTRefreshView.git
+  HTSegmentView:
+    :commit: 12ce52a32cfd06d0a911e4298e76e5a7e94d0b71
+    :git: https://g.hz.netease.com/HTIOSUI/HTSegmentView.git
+  HTToast:
+    :commit: 8c7543b827dadfdaa0b64daf9832c604878a2afd
+    :git: https://g.hz.netease.com/HTIOSUI/HTToast.git
+  UniversalRouter:
+    :commit: b458c7c46f97a64d94d8d21b29048065204923a5
+    :git: https://g.hz.netease.com/HTIOSUI/UniversalRouter.git
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: 7f317038a9710cabfa43ec56396b307b45df72ab
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HTAssetsPicker: 551734a1fb2ebd5bd841484dac7e814519e107ed
+  HTBadgeTextView: 4e0f5c269b36e609bd6f933354ee2dace4b59805
+  HTCommonUtility: b308d28d4aecd7dd389f9f0cc8c2b69fbd16038a
+  HTImageView: dfafc161758bb245a7a797c2c24625b95ed57388
+  HTNetworking: c46dec57f7d3c258433b06f44ac390ca63dc354f
+  HTPageControllerView: 1ad82cd1e79cc6e07facbcaac6e31a4f15600894
+  HTR3: 7d2b1f4172c3c2aa2ae064d578d7ec2e88bfa5c6
+  HTRefreshView: 950de3b27d21a6d6624963bbd753113e47d58fb2
+  HTSegmentView: 2cc42b478c7515bf916a978545e55fb35201c040
+  HTToast: 5ba6653b920fd27bb126ec1441bc12af791a84fa
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MGSwipeTableCell: a51fa670c01f0aa048f12af040acebf315223137
+  ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  UniversalRouter: 27107d2383040b37ce25a98ef4ccaafc2fbb0ed7
+
+COCOAPODS: 0.39.0

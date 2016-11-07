@@ -1,0 +1,1 @@
+../../../HTCommonUtility/HTCommonUtility/HTCommonUtility/HTSafeObserver/HTObserverInfosManager.h
