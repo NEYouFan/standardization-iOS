@@ -14,14 +14,14 @@
 通过我们接下来的一个标准化的demo小项目，我们将尽量完全重现一款新的app从架构设计到具体业务开发的完整流程，希望能对你有所帮助。
 
 ### chapter 1 开发规范
-首先在开发之前，我们需要明确一下规范: __标准化项目的团队开发规范__。 详见[标准化大纲](https://g.hz.netease.com/mobile-ios/Standardization/wikis/home)中的 __团队开发规范__。
+首先在开发之前，我们需要明确一下规范: __标准化项目的团队开发规范__。 详见[标准化大纲](https://github.com/NEYouFan/standardization-iOS/wiki)中的 __团队开发规范__。
 __团队开发规范__大致由以下几个部分组成:
 
-1. 代码规范: [Obejective-C编码规范](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/Objective-C%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md) / [Swift编码规范](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/Swift%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md)
-2. 团队协作规范:  [git规范](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/Git%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83.md) 
-3. 工程规范: [项目工程组织规范](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%BB%84%E7%BB%87%E8%A7%84%E8%8C%83.md) 
-4. 页面编写规范:[项目页面编写规范-自定义View](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E9%A1%B5%E9%9D%A2%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83-%E8%87%AA%E5%AE%9A%E4%B9%89View.md) / [项目页面编写规范-静态TableVIew](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E9%A1%B5%E9%9D%A2%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83-%E9%9D%99%E6%80%81TableView.md)
-5. 文档规范: [MarkDown编写规范](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/%E5%85%AC%E5%8F%B8Git-Markdown%E8%AF%AD%E6%B3%95%E8%A7%84%E8%8C%83.md) ／ [README编写规范](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/SDK-README%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.md) 
+1. 代码规范: [Obejective-C编码规范](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/Objective-C%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md) / [Swift编码规范](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/Swift%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md)
+2. 团队协作规范:  [git规范](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/Git%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83.md) 
+3. 工程规范: [项目工程组织规范](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%BB%84%E7%BB%87%E8%A7%84%E8%8C%83.md) 
+4. 页面编写规范:[项目页面编写规范-自定义View](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E9%A1%B5%E9%9D%A2%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83-%E8%87%AA%E5%AE%9A%E4%B9%89View.md) / [项目页面编写规范-静态TableVIew](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E9%A1%B5%E9%9D%A2%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83-%E9%9D%99%E6%80%81TableView.md)
+5. 文档规范: [README编写规范](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/SDK-README%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.md) 
 
 
 ### chapter 2 创建工程
@@ -56,10 +56,10 @@ HTTemplate的详细介绍和使用方法请自行查看[HTTemplate](https://g.hz
 9. Pods: cocoaPods相关，目前demo项目里面引入了第三方库，包括标准化内的二方库（HT开头的那些），以及一些比较常用的三方库(AFNetworking)/(Masonry)/(ReactiveCocoa)等等
 ```
 
-对项目工程目录更细化的介绍，详见[项目工程组织规范](https://g.hz.netease.com/mobile-ios/Standardization/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%BB%84%E7%BB%87%E8%A7%84%E8%8C%83.md)
+对项目工程目录更细化的介绍，详见[项目工程组织规范](https://github.com/NEYouFan/standardization-iOS/blob/master/DevelopSpecifications-Docs/%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%E7%BB%84%E7%BB%87%E8%A7%84%E8%8C%83.md)
 
 ### chapter 4  网络库
-网络库的选择，对于一个app也是至关重要的。标准化项目中有网易自己定制的网络库：[HTNetworking](https://g.hz.netease.com/mobile-ios/Standardization/wikis/htnetwork-htnetworking)
+网络库的选择，对于一个app也是至关重要的。标准化项目中有网易自己定制的网络库：[HTNetworking](https://github.com/NEYouFan/standardization-iOS/wiki/htnetwork-htnetworking)
 
 HTNetworking是一个基于RestKit开发的iOS网络框架库，具有使用简单、高度可配置、扩展性强等特点，同时集成了cache等高级功能。其具有以下优点：
 
@@ -72,9 +72,9 @@ HTNetworking是一个基于RestKit开发的iOS网络框架库，具有使用简�
 6. 解除RestKit与AFNetworking的耦合；
 ```
 
-除了以上优点之外，[HTNetworking](https://g.hz.netease.com/mobile-ios/Standardization/wikis/htnetwork-htnetworking)还有一个非常重要的优点，就是它可以和[NEI](https://g.hz.netease.com/mobile-ios/Standardization/wikis/htnetwork-nei)完美结合，从而达到网络数据业务层的Request请求以及Response的Model的代码一键自动生成。从而避免了开发者自己手写Request／Model的重复性劳动，同时也避免了手写过程中有可能造成的人工错误。
+除了以上优点之外，[HTNetworking](https://github.com/NEYouFan/standardization-iOS/wiki/htnetwork-htnetworking)还有一个非常重要的优点，就是它可以和[NEI](https://github.com/NEYouFan/standardization-iOS/wiki/htnetwork-nei)完美结合，从而达到网络数据业务层的Request请求以及Response的Model的代码一键自动生成。从而避免了开发者自己手写Request／Model的重复性劳动，同时也避免了手写过程中有可能造成的人工错误。
 
-[NEI](https://g.hz.netease.com/mobile-ios/Standardization/wikis/htnetwork-nei)是网易杭州研究院前端技术部提供的用于优化前后端接口的开发和测试的工作的一个非常好用的工具，它可以在上面定义请求的异步接口与数据类型，并协助自动生成客户端的请求代码已经model的数据结构。同时还能根据工程模版自动化生成项目工程。详见：[NEI](https://nei.netease.com) / [NEI mobile新版本使用指南](https://g.hz.netease.com/HeartTouchOpen/nei_mobile/blob/dev/Version3.0/How-To-Use/nei%20mobile%E6%96%B0%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+[NEI](https://github.com/NEYouFan/standardization-iOS/wiki/htnetwork-nei)是网易杭州研究院前端技术部提供的用于优化前后端接口的开发和测试的工作的一个非常好用的工具，它可以在上面定义请求的异步接口与数据类型，并协助自动生成客户端的请求代码已经model的数据结构。同时还能根据工程模版自动化生成项目工程。详见：[NEI](https://nei.netease.com) / [NEI mobile新版本使用指南](https://g.hz.netease.com/HeartTouchOpen/nei_mobile/blob/dev/Version3.0/How-To-Use/nei%20mobile%E6%96%B0%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
 
 在我们的demo工程中，Network目录下面绝大部分的代码，都是由NEI自动生成的，简洁明了。
 
@@ -92,9 +92,9 @@ HTNetworking是一个基于RestKit开发的iOS网络框架库，具有使用简�
 具体的页面实际的例子可以参考demo中的任意ViewController。
 
 ### chapter 6 页面跳转
-关于不同ViewController之间的跳转的模式以及参数的传递，建议使用[HTUniversalRouter](https://g.hz.netease.com/mobile-ios/Standardization/wikis/htui-htrouter)
+关于不同ViewController之间的跳转的模式以及参数的传递，建议使用[HTUniversalRouter](https://github.com/NEYouFan/standardization-iOS/wiki/htui-htrouter)
 
-[HTUniversalRouter](https://g.hz.netease.com/mobile-ios/Standardization/wikis/htui-htrouter) 使用URL来定位页面及页面导航。有以下优点：
+[HTUniversalRouter](https://github.com/NEYouFan/standardization-iOS/wiki/htui-htrouter) 使用URL来定位页面及页面导航。有以下优点：
 
 ```
 1. 去中心化的URL配置方式
@@ -107,18 +107,18 @@ HTNetworking是一个基于RestKit开发的iOS网络框架库，具有使用简�
 具体使用方式也十分简单，可以参考demo内任意ViewController的 <font color=blue>#pragma mark Router</font> 模块
 
 ### chapter 7 常用控件
-[标准化大纲](https://g.hz.netease.com/mobile-ios/Standardization/wikis/home)中的控件库中提供了众多常用的控件库，其中大部分的控件都是可定制的，需要由使用者自身来实现一些协议，从而达到自己需要的效果。具体每个控件的使用方式都有说明，使用者可以自行查看。
+[标准化大纲](https://github.com/NEYouFan/standardization-iOS/wiki)中的控件库中提供了众多常用的控件库，其中大部分的控件都是可定制的，需要由使用者自身来实现一些协议，从而达到自己需要的效果。具体每个控件的使用方式都有说明，使用者可以自行查看。
 
 在demo中，我们用到了控件库内的(HTTableView) / (HTSegmentView) / (HTImageView) / (HTAssetsPicker) / (HTRefreshView)等控件，极大的节省了开发时间，提高了效率。具体的用法示例，都可以在demo中查到。
 
 ### chapter 8 More to do
 一个优秀的app绝不仅限于完成产品的功能那么简单，标准化项目也致力于在各个方面提高app的性能。如：
 
-* [CandyWebCache](sdk-candywebcache)：是移动端web资源的本地缓存的解决方案，能够拦截webview的请求，并优先使用本地缓存静态资源进行响应，以此来对webview加载页面性能进行优化
-* [push](sdk-push)：是配合推送平台开发的适应于 iOS 设备上的客户端 SDK，在原有的协议上进行了封装，提供了更加清晰、易用的接口，便于客户端与推送服务器的之间的通讯。
-* [APM](sdk-apm)：是网易性能监控平台，用于监控、优化应用性能，提高应用的可靠性和质量。
-* [HTTPDNS](sdk-httpdns)：是为移动客户端量身定做的基于HTTP协议和域名解析的流量调度解决方案。
-* [大白安全系统](sdk-safetyguard)：是一款app的健康情况的监控与调优工具。
+* [CandyWebCache](https://github.com/NEYouFan/standardization-iOS/wiki/sdk-candywebcache)：是移动端web资源的本地缓存的解决方案，能够拦截webview的请求，并优先使用本地缓存静态资源进行响应，以此来对webview加载页面性能进行优化
+* [push](https://github.com/NEYouFan/standardization-iOS/blob/master/SDK-Docs/Push-README.md)：是配合推送平台开发的适应于 iOS 设备上的客户端 SDK，在原有的协议上进行了封装，提供了更加清晰、易用的接口，便于客户端与推送服务器的之间的通讯。
+* [APM](https://github.com/NEYouFan/standardization-iOS/blob/master/SDK-Docs/NAPM-README.md)：是网易性能监控平台，用于监控、优化应用性能，提高应用的可靠性和质量。
+* [HTTPDNS](https://github.com/NEYouFan/standardization-iOS/blob/master/SDK-Docs/HTTPDNS-README.md)：是为移动客户端量身定做的基于HTTP协议和域名解析的流量调度解决方案。
+* [大白安全系统](https://github.com/NEYouFan/standardization-iOS/blob/master/SDK-Docs/HTMemeryLeakDetactor-README.md)：是一款app的健康情况的监控与调优工具。
 
 如果你对你的app有更高的要求，不妨尝试一下以上工具～
 
