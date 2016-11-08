@@ -149,5 +149,5 @@ TODO：简单的说明
 # 四、标准化框架的使用示例：iOS标准化学习大作业
 
 * [大作业需求文档地址](https://g.hz.netease.com/mobile-ios/Standardization/tree/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AE%9E%E8%B7%B5%E5%A4%A7%E4%BD%9C%E4%B8%9A)
-* [大作业参考demo地址](https://g.hz.netease.com/mobile-ios/Standardization/tree/master/StandardizationPractice)
+* [大作业参考demo地址](https://github.com/NEYouFan/standardization-iOS/tree/master/StandardizationPractice)
 * [大作业服务器地址](https://g.hz.netease.com/hzwangliping/TrainingServer/tree/master/CT%E5%A4%A7%E4%BD%9C%E4%B8%9A%E6%9C%8D%E5%8A%A1%E5%99%A8)
