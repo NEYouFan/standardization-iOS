@@ -4,7 +4,7 @@ iOS 标准化是促进 App 开发团队高效、高质量进行开发工作的�
 
 使用标准化框架可以带来众多好处，比如：
 1. 严格要求团队开发人员遵守 **标准化团队开发规范** ，可以保证团队各成员以一致的风格进行工作，减少不必要的协作冲突；
-2. 标准化框架中的网络库结合 [NEI](https://g.hz.netease.com/HeartTouchOpen/nei_mobile) 可以减少大量网络层代码编写，提高业务的网络层开发效率，并可以降低出错概率；
+2. 标准化框架中的网络库结合 [NEI](https://nei.netease.com/) 可以减少大量网络层代码编写，提高业务的网络层开发效率，并可以降低出错概率；
 3. 标准化框架中的控件库可以节省开发人员调研所需控件的时间，并防止为众多杂乱开源库填坑浪费时间；
    我们有相关开发人员会持续保证控件库的灵活性与可靠性，根据已使用控件库的产品反馈来看，目前处于良性循环；
 4. APM 和大白健康安全系统可以帮助开发人员尽早发现工程中的隐藏 bug，并有完整的日志系统帮助开发人员定位问题，正当的使用可以在较短时间内提升工程质量；
@@ -148,6 +148,6 @@ TODO：简单的说明
 
 # 四、标准化框架的使用示例：iOS标准化学习大作业
 
-* [大作业需求文档地址](https://g.hz.netease.com/mobile-ios/Standardization/tree/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AE%9E%E8%B7%B5%E5%A4%A7%E4%BD%9C%E4%B8%9A)
+* [大作业需求文档地址](https://github.com/NEYouFan/standardization-iOS/tree/master/%E4%BA%A4%E4%BA%92%E5%8F%8A%E8%A7%86%E8%A7%89%E7%A8%BF)
 * [大作业参考demo地址](https://github.com/NEYouFan/standardization-iOS/tree/master/StandardizationPractice)
 * [大作业服务器地址](https://github.com/NEYouFan/standardization-iOS/tree/master/TrainingServer)
