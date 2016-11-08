@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <title>Node.js Ajax Upload File</title>
+    <link type="text/css" rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class = "page-header">
+        <h2>Node.js Ajax Upload File</h2>
+      </div>
+      <form class = "form-horizontal" enctype='multipart/form-data' method='post' action='javascript:;' role = "form" id = "frmUploadFile">
+        <div class = "form-group">
+          <label class = "control-label col-sm-2">上传选择</label>
+          <div class = "col-sm-4">
+            <input type = "file" name = "files" class = "form-control" />
+          </div>
+        </div>
+        <div class = "form-group">
+          <div class = "col-sm-offset-2 col-sm-4">
+            <button class = "btn btn-primary" onClick = "uploadFile()">上传</button>
+            <span class = "help-inline" id = "spanMessage">选择文件，并上传</span>
+          </div>
+        </div>
+      </form>
+      <p>相关信息</p>
+      <ul>
+        <li>文章：<a target = "_blank" href = "http://chensd.com/2015-01/Node-js-Ajax-Upload-File.html">利用Ajax无刷新上传文件到Node.js服务器</a></li>
+        <li>代码库：<a target = "_blank" href = "https://coding.net/u/Stiekel/p/Node.js-Ajax-Upload-File/git">Coding.net托管</a></li>
+      </ul>
+      <div class = "row" style = "text-align: center">
+        <img id = "imgShow" />
+      </div>
+    </div>
+    <footer>
+      <div class="container"><hr />
+        <center><small>by <a href = "http://chensd.com">Sid</a></small></center>
+      </div>
+    </footer>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="demo.js"></script>
+  </body>
+</html>
