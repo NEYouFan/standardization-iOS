@@ -22,7 +22,7 @@ CandyWebCache的优点
 # CandyWebCache的设计
 
 ## 整体架构图
-![](http://7xqcm1.com1.z0.glb.clouddn.com/CandyWebCache.jpg)
+![image](Resources/CandyWebCache/CandyWebCache.jpg)
 
 #### Server端
 
@@ -42,7 +42,7 @@ CandyWebCache的优点
 4. 当客户端WebView发出加载请求，CandyWebCache从协议层拦截请求，根据匹配规则判断本地是否有资源缓存，如果本地资源数据中有请求url对应的资源，则返回资源数据，否则，正常走网络请求。
 
 ## 客户端架构图
-![](http://7xqcm1.com1.z0.glb.clouddn.com/client.jpg)
+![image](Resources/CandyWebCache/client.jpg)
 
 #### CandyWebCache
 
