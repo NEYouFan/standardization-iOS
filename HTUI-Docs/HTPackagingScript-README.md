@@ -6,7 +6,7 @@ xcode7及以上
 # 命令参数
 ```
 HearTouch iOS Package Script
-Author: hzzhangjw@corp.netease.com
+Author: jw
 Usage:
 Example: sh htbuild.sh --env="ad-hoc" --signIdentity="iPhone Distribution: zhongkai song (SM77JMFHDC)" --provisioning="jw-distribute" --workspacePath="/Users/jw/mycode/xcode/JWXCBuildTest" --workspaceName="JWXCBuildTest"
 参数说明:
